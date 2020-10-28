@@ -4,7 +4,7 @@
   "description": "A JavaScript interpreter for the Joy programming language",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimf/joy-js"
+    "url": "https://github.com/shatteredaesthetic/joy-js"
   },
   "scripts": {
     "build": "rimraf dist && mkdir dist && cp static/index.html dist && npm run build-js && npm run build-css",
@@ -23,12 +23,12 @@
     ]
   },
   "keywords": [],
-  "author": "Jim Fitzpatrick",
+  "author": "Jason Polhemus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimf/joy-js/issues"
+    "url": "https://github.com/shatteredaesthetic/joy-js/issues"
   },
-  "homepage": "https://github.com/jimf/joy-js",
+  "homepage": "https://github.com/shatteredaesthetic/joy-js",
   "dependencies": {},
   "devDependencies": {
     "babel-minify": "^0.4.3",
